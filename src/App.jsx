@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const API_KEY = import.meta.env.VITE_APP_COHERE_API_KEY;
+const API_KEY = import.meta.env.VITE_COHERE_API_KEY;
 
 const App = () => {
   const [messages, setMessages] = useState([]);
